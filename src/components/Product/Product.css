@@ -1,0 +1,29 @@
+.product{
+    display:flex;
+    padding:5px;
+    margin-right: 5px;
+    border-bottom: 1px solid lightgray;
+}
+.productName{
+    color:blue;
+    font-weight: 500;
+}
+.productDetails{
+    margin-left:10px;
+}
+.productNameLink{
+    text-decoration: none;
+
+}
+button{
+    background-color:goldenrod;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(231, 213, 108);
+    cursor: pointer;
+    
+}
