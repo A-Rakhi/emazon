@@ -17,6 +17,7 @@ const Cart = (props) => {
   }
   let tax = Math.round(price * 0.1);
   const totalPrice = Math.round(price + shipping + tax);
+  
   return (
     <div className="cart">
       <div style={{ textAlign: "center" }}>

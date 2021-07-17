@@ -42,6 +42,7 @@ const Shop = () => {
     setCart(newCart);
     addToDatabaseCart(product.key, count);
   };
+  
   return (
     <div className="shop-container">
       <div className="product-container">
